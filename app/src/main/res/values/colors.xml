@@ -4,4 +4,17 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name = "main_color">#8466BA</color>
+    <color name = "help_color">#734EB5</color>
+
+    <color name = "FondoArte">#2196F3</color>
+    <color name = "FondoGeografia">#4CAF50</color>
+    <color name = "FondoLiteratura">#833601</color>
+    <color name = "FondoMusica">#E91E63</color>
+    <color name = "FondoSociedad">#032EFB</color>
+    <color name = "FondoDeportes">#FF5722</color>
+
+
+    <color name = "letras">#CDDC39</color>
+
+    <color name= "LetrasBlack">#000000</color>
 </resources>

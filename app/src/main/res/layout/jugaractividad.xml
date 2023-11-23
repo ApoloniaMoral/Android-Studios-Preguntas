@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginTop="@dimen/card_content_padding"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="295dp"
+        android:layout_height="732dp"
+        android:background="@color/help_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/help_color">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/card_categorias"
+                app:cardCornerRadius="@dimen/card_corner"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="272dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/FondoArte"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="98dp"
+                        android:layout_height="114dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/arte" />
+
+                    <TextView
+                        android:id="@+id/txtArte"
+                        android:layout_width="match_parent"
+                        android:layout_height="91dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/Arte"
+                        android:textColor="@color/LetrasBlack"
+                        android:textSize="48sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/card_categorias"
+                android:scrollbarDefaultDelayBeforeFade="300"
+                app:cardCornerRadius="@dimen/card_corner"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/FondoGeografia"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="98dp"
+                        android:layout_height="114dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/geografia" />
+
+                    <TextView
+                        android:id="@+id/txtGeografia"
+                        android:layout_width="match_parent"
+                        android:layout_height="91dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/Geografia"
+                        android:textColor="@color/LetrasBlack"
+                        android:textSize="48sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/card_categorias"
+                android:scrollbarDefaultDelayBeforeFade="300"
+                app:cardCornerRadius="@dimen/card_corner"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/FondoLiteratura"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="98dp"
+                        android:layout_height="114dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/libro" />
+
+                    <TextView
+                        android:id="@+id/txtLiteratura"
+                        android:layout_width="match_parent"
+                        android:layout_height="91dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/Literatura"
+                        android:textColor="@color/LetrasBlack"
+                        android:textSize="48sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/card_categorias"
+                app:cardCornerRadius="@dimen/card_corner"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/FondoMusica"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="98dp"
+                        android:layout_height="114dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/notas_musicales" />
+
+                    <TextView
+                        android:id="@+id/txtMusica"
+                        android:layout_width="match_parent"
+                        android:layout_height="91dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/Musica"
+                        android:textColor="@color/LetrasBlack"
+                        android:textSize="48sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/card_categorias"
+                android:scrollbarDefaultDelayBeforeFade="300"
+                app:cardCornerRadius="@dimen/card_corner"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/FondoSociedad"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="98dp"
+                        android:layout_height="114dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/antepasados" />
+
+                    <TextView
+                        android:id="@+id/txtSociedad"
+                        android:layout_width="match_parent"
+                        android:layout_height="91dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/Sociedad"
+                        android:textColor="@color/LetrasBlack"
+                        android:textSize="48sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/card_categorias"
+                android:scrollbarDefaultDelayBeforeFade="300"
+                app:cardCornerRadius="@dimen/card_corner"
+                app:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/FondoDeportes"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="98dp"
+                        android:layout_height="114dp"
+                        android:layout_gravity="center_horizontal"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/deportes" />
+
+                    <TextView
+                        android:id="@+id/txtDeportes"
+                        android:layout_width="match_parent"
+                        android:layout_height="91dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/Deporte"
+                        android:textColor="@color/LetrasBlack"
+                        android:textSize="48sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</ScrollView>

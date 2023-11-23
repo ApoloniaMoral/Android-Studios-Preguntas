@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">PreguntApp</string>
+
+    <string name="Help">Ayuda</string>
+    <string name="Choose">Elije una categoria</string>
+    <string name="Categorias">Cada categoria tiene 10 preguntas</string>
+    <string name="Responde">Responde a las preguntas ( Correctamente a poder ser)</string>
+    <string name="Ajugar">¡A jugar!</string>
+
+    <string name="Arte"> Arte </string>
+    <string name="Geografia"> Geografía </string>
+    <string name="Literatura"> Literatura </string>
+    <string name="Musica"> Música </string>
+    <string name="Sociedad"> Sociedad </string>
+    <string name="Deporte"> Deporte </string>
+
+
+
+
 </resources>
